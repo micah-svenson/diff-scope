@@ -2,6 +2,8 @@
 This repository contains modules to automate some development tasks as well as provide utilities to increase efficiency. Descriptions of each modules are provided in the sections below.
 All modules have executable scripts that are available through the `panda` runner for convienience.
 
+NOTE: This will only work on Linux systems. 
+
 ## Panda Runner
 
 The panda runner provides a convienient way to run any script in this repository by
