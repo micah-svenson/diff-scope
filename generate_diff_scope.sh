@@ -46,7 +46,7 @@ else
 	fi
 
 	echo "Your current branch is: $(tput setaf 2)$CURRENTBRANCH$(tput sgr0)"
-	echo -n "Enter name of comparison branch: "
+	echo "Enter name of comparison branch: "
 	read COMPARISONBRANCH
 
 	echo "Creating Scope for file changes between $(tput setaf 2) $COMPARISONBRANCH $(tput sgr0) and $(tput setaf 2) $CURRENTBRANCH$(tput sgr0)..." 
